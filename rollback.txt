@@ -1,0 +1,11 @@
+Rollback Evidence
+
+Documented final permissions:
+public.txt: 644
+private.txt: 644
+report.txt: 755
+
+Commands to restore this documented state:
+chmod 644 public.txt
+chmod 644 private.txt
+chmod 755 report.txt
